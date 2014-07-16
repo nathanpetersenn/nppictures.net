@@ -1,0 +1,200 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <title>NPPictures</title>
+
+  <meta name="description" content="A collection of pictures taken by Nathan Petersen">
+  <meta name="author" content="Nathan Petersen">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" type="text/css" media="screen, print, projection" href="/util/compressed.css.php" />
+
+  
+  <script src="/util/jquery.min.js"></script>
+  <script src="/util/fullWidthGallery.js"></script>
+  <script src="/util/fancybox/fancybox.min.js"></script>
+  <script src="/util/scripts.js"></script>
+
+  <!-- Google Analytics code -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-47404422-1', 'nppictures.net');
+    ga('send', 'pageview');
+  </script>
+
+
+</head>
+
+<body>
+
+<header>
+  
+  <img src="/util/timthumb/timthumb.php?src=http://lh6.ggpht.com/-Fal2Bwm76rs/UscYWUq24wE/AAAAAAAAATI/H1Lp0T6v2K0/ProfileData.jpg?imgmax=500&amp;w=300&amp;h=300&amp;q=90" alt="profile picture" />
+  <section>
+    <h2>Nathan</h2>
+    <h3>Petersen</h3>
+  </section>
+
+  <div><h1><a href="/">NP<span>Pictures</span></a></h1></div>
+
+<div class="about"><p>Nathan Petersen is a photographer from Champaign, Illinois. Nathan enjoys taking pictures of most anything. He believes that every picture is a memory that was captured through a lens and recorded forever. Nathan updates his website often, so check back soon! Contact him at <a href="mailto:contact@nppictures.net">contact@nppictures.net</a>.</p></div>
+  <div class="updated">Last updated: July 16th, 2014 at 1:17:59 PM</div>
+</header>
+
+<h4>Categories</h4>
+
+<ul class="cat">
+
+<li>
+<a href="recent"><img class="main" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh5.googleusercontent.com%2F-hjtOdweJQWc%2FU8S19aKH--I%2FAAAAAAAAB_I%2F8ZbAf2nTeR8%2FIMG_0003.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Recent" />
+<div>Recent<span> - 15 photos</span></div>
+</a>
+</li>
+
+<li>
+<a href="category/6033005948944003697/asp-2014">
+<img class="main" src="/util/timthumb/timthumb.php?src=http%3A%2F%2Flh3.ggpht.com%2F-Gf7lyB1wBvs%2FU7mK8kKgMnE%2FAAAAAAAAB-k%2Fqt15bE9Z-oo%2FASP2014.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="ASP 2014" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh5.googleusercontent.com%2F-AGf5jQnRk_Y%2FU7mL0zf88iI%2FAAAAAAAAB98%2FDb6_BlL8riQ%2FIMAGE_225.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="ASP 2014 preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh4.googleusercontent.com%2F-hMFbj1MfDzU%2FU7mLvKFmFNI%2FAAAAAAAAB9w%2FIoRB7rlYxtY%2FIMAGE_223.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="ASP 2014 preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh4.googleusercontent.com%2F-6wdfKfH4-FY%2FU7mLc3wr9jI%2FAAAAAAAAB9c%2FZrTKheWL7qc%2FIMAGE_216.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="ASP 2014 preview" />
+<div>ASP 2014<span> - 23 photos</span></div>
+</a>
+</li>
+
+<li>
+<a href="category/5993281303809425825/france-2014">
+<img class="main" src="/util/timthumb/timthumb.php?src=http%3A%2F%2Flh4.ggpht.com%2F-TzKQim3q494%2FUyxpl5CNAaE%2FAAAAAAAAB_Y%2Fy7YErvC0vZg%2FFrance2014.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="France 2014" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh5.googleusercontent.com%2F-vsHqIkk5rMs%2FUzitD-sZWjI%2FAAAAAAAABpE%2F7qos5jzTGRQ%2FIMAGE_196.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="France 2014 preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh4.googleusercontent.com%2F-w0a1-HO0YoI%2FUzJ5S3pWgxI%2FAAAAAAAABSs%2FQyt04Jsuq9Y%2FIMAGE_89.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="France 2014 preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh5.googleusercontent.com%2F-KRBoG02SVlk%2FUzTcOcdrM9I%2FAAAAAAAABbY%2FFJDbQaVJL9w%2FIMAGE_125.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="France 2014 preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh6.googleusercontent.com%2F-4NWmBH3xc2Y%2FUzitLRuMi-I%2FAAAAAAAABpQ%2FYFZtOBZQpfc%2FIMAGE_198.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="France 2014 preview" />
+<div>France 2014<span> - 204 photos</span></div>
+</a>
+</li>
+
+<li>
+<a href="category/5966744033459886033/portraits">
+<img class="main" src="/util/timthumb/timthumb.php?src=http%3A%2F%2Flh5.ggpht.com%2F-It9DiEjoxVE%2FUs4iFdQO19E%2FAAAAAAAAB40%2FTg5rx3YeB6w%2FPortraits.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Portraits" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh6.googleusercontent.com%2F-ewdde5672Sw%2FUs42dDe7ujI%2FAAAAAAAAA1E%2Fz2YSesfFpHE%2F2013%2525252011%2525252010%25252520Petersen%25252520Family.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Portraits preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh4.googleusercontent.com%2F-Qs2pirWTEaI%2FUs43SxBqjWI%2FAAAAAAAAAW8%2FXKqtT8a1PHQ%2Fcarolsgrad-2.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Portraits preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh3.googleusercontent.com%2F-SQ2vLi_j7S0%2FUs4iFoNub9I%2FAAAAAAAAA1Q%2FtEtUKGNsQoY%2FIMG_0045.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Portraits preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh5.googleusercontent.com%2F-g8sVaRMkEo4%2FUs42dYZdUOI%2FAAAAAAAAA3Y%2FJ255pXMIU6g%2F2013%2525252006%2525252023%2525252005%25252520Grand%25252520Girls%252525204x6.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Portraits preview" />
+<div>Portraits<span> - 27 photos</span></div>
+</a>
+</li>
+
+<li>
+<a href="category/5967399059532562609/landscapes">
+<img class="main" src="/util/timthumb/timthumb.php?src=http%3A%2F%2Flh3.ggpht.com%2F-eDUh-8eEFyE%2FUtB10_hwQLE%2FAAAAAAAAB_I%2FBVyhW4K8KLg%2FLandscapes.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Landscapes" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh6.googleusercontent.com%2F-nge82xx0TGc%2FUwqMuE0L1AI%2FAAAAAAAAA5I%2FuTT2pFEBqj8%2FIMG_0064-2.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Landscapes preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh3.googleusercontent.com%2F-j8ZmUpD9j4I%2FUtB2Iv0cJkI%2FAAAAAAAAA1o%2FKccEacm4nco%2Ffarm_night_wdscrn_npp.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Landscapes preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh4.googleusercontent.com%2F-atnjlPnOPgE%2FUtB2Hf4-vRI%2FAAAAAAAAB-Y%2FzPv5tk1J2S4%2Fwater_fall_npp.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Landscapes preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh3.googleusercontent.com%2F-CZ3tXf_dnl8%2FUtB3zXiN-vI%2FAAAAAAAAA1k%2FTPQoJhG_1Q8%2F340.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Landscapes preview" />
+<div>Landscapes<span> - 16 photos</span></div>
+</a>
+</li>
+
+<li>
+<a href="category/5967401549615118417/waterdrops">
+<img class="main" src="/util/timthumb/timthumb.php?src=http%3A%2F%2Flh3.ggpht.com%2F-jgZkDuG5riI%2FUtB4F7zsuFE%2FAAAAAAAAB-Q%2FUFOHG1o_2k4%2FWaterdrops.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Waterdrops" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh5.googleusercontent.com%2F-RmQm_nEkn7E%2FUtB4IdOXXaI%2FAAAAAAAAA30%2FjMD0-EQTTng%2F240.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Waterdrops preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh3.googleusercontent.com%2F-tQUsm2Htt7U%2FUtB4HAG-0mI%2FAAAAAAAAA4s%2FZTXwqfBB2tY%2F210.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Waterdrops preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh6.googleusercontent.com%2F-1BoUbf3l0tU%2FUtB4HJb5MfI%2FAAAAAAAAA3s%2F6h80dIvU_NY%2F200.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Waterdrops preview" />
+<div>Waterdrops<span> - 5 photos</span></div>
+</a>
+</li>
+
+<li>
+<a href="category/5965491799133403921/caesar-cat">
+<img class="main" src="/util/timthumb/timthumb.php?src=http%3A%2F%2Flh6.ggpht.com%2F-7KF5dPlr-dg%2FUsmvL03aOxE%2FAAAAAAAAB3s%2FrUtAIQWdEGA%2FCaesarCat.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Caesar Cat" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh3.googleusercontent.com%2F-fJc9JvVXPyU%2FUsmwBhkHQ-I%2FAAAAAAAAA4c%2FLk8IPGjXdt4%2Fcat_caesar_sleeping.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Caesar Cat preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh4.googleusercontent.com%2F-buSgRXrjcOE%2FUsmvMOjiW-I%2FAAAAAAAAA4I%2FVkdtjeX3Mug%2FIMG_0109.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Caesar Cat preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh5.googleusercontent.com%2F-0I6tOCTJy8k%2FUsmvVo6N3HI%2FAAAAAAAAA38%2FYSUjLEEGfB8%2FIMG_0110.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Caesar Cat preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh4.googleusercontent.com%2F-HwGb7aWb7UY%2FUsmvXrNYs2I%2FAAAAAAAAA4g%2Fop2jTMscOMg%2FIMG_0112.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Caesar Cat preview" />
+<div>Caesar Cat<span> - 19 photos</span></div>
+</a>
+</li>
+
+<li>
+<a href="category/5964478872562497201/alyssa-olson">
+<img class="main" src="/util/timthumb/timthumb.php?src=http%3A%2F%2Flh4.ggpht.com%2F-9tsvNW92vGQ%2FUsYV7vVo9rE%2FAAAAAAAAB48%2FPAtpDycZtHg%2FAlyssaOlson.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Alyssa Olson" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh5.googleusercontent.com%2F-Nm9DrMe60bk%2FUsYWzZW1D9I%2FAAAAAAAAA0I%2FcJuUBwz6ysU%2Falyssa_sunny-4.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Alyssa Olson preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh6.googleusercontent.com%2F-PzcdkvIYX7c%2FUsYW-a32X4I%2FAAAAAAAAAzc%2FcFMtD65IQqA%2FIMG_0004-Edit.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Alyssa Olson preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh3.googleusercontent.com%2F-YAplam7L5nA%2FUsYXA4uJALI%2FAAAAAAAAAzg%2F3QoCmRWSfZ0%2FIMG_0038-Edit.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Alyssa Olson preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh3.googleusercontent.com%2F-0iCLzMffq0U%2FUsYWX7GZgDI%2FAAAAAAAAA0g%2FsPgFbJYSBKQ%2FIMG_0113.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Alyssa Olson preview" />
+<div>Alyssa Olson<span> - 26 photos</span></div>
+</a>
+</li>
+
+<li>
+<a href="category/5964483665122356577/nathan-petersen">
+<img class="main" src="/util/timthumb/timthumb.php?src=http%3A%2F%2Flh4.ggpht.com%2F-jwi7tkagSP8%2FUsYaStA87WE%2FAAAAAAAAB3M%2FgsUMhon8luo%2FNathanPetersen.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Nathan Petersen" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh6.googleusercontent.com%2F-L_uCm6SvvmY%2FU2_MgR7tKPI%2FAAAAAAAABtU%2FchLZH4P2BjA%2F2014-05-03%25252520V%25252520vs%25252520Peoria%25252520%25252528125%25252529.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Nathan Petersen preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh6.googleusercontent.com%2F-XfSDxL7J9VQ%2FU2_MNpDU41I%2FAAAAAAAABs4%2FoLqL-tMQrAY%2F2014-05-03%25252520V%25252520vs%25252520Peoria%25252520%25252528023%25252529.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Nathan Petersen preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh4.googleusercontent.com%2F-jl-5cFZRamg%2FU4phIO4V3RI%2FAAAAAAAAB3I%2FhnRNRiUUSds%2F2014-05-24%25252520V%25252520%25252540%25252520Southwest%25252520%25252528098%25252529.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Nathan Petersen preview" />
+<div>Nathan Petersen<span> - 35 photos</span></div>
+</a>
+</li>
+
+<li>
+<a href="category/6014909392664795601/prom-2014">
+<img class="main" src="/util/timthumb/timthumb.php?src=http%3A%2F%2Flh4.ggpht.com%2F-JBE4aKdL3DE%2FU3lAOWnyGdE%2FAAAAAAAAB0Q%2Fj6Yk_lHSBjs%2FProm2014.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Prom 2014" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh6.googleusercontent.com%2F-dMB4ps6ynWw%2FU3lAZNXwPBI%2FAAAAAAAABz4%2FcakMJuDj2k0%2Fprom-2014-008.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Prom 2014 preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh5.googleusercontent.com%2F-He37MhUq0xk%2FU3lAfqj1BSI%2FAAAAAAAAB0Q%2Fbb_2cHiuLzo%2Fprom-2014-013.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Prom 2014 preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh3.googleusercontent.com%2F-SFCTx985Wy0%2FU3lAUO-5MDI%2FAAAAAAAABzo%2Fny8Ovb3anhI%2Fprom-2014-005.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Prom 2014 preview" />
+<img class="preview" src="/util/timthumb/timthumb.php?src=https%3A%2F%2Flh5.googleusercontent.com%2F-4ZOZwOs3pts%2FU3lAW5345RI%2FAAAAAAAABz0%2F8zJgT0W-u3s%2Fprom-2014-007.jpg%3Fimgmax%3D1000&amp;w=600&amp;h=600&amp;q=90" alt="Prom 2014 preview" />
+<div>Prom 2014<span> - 14 photos</span></div>
+</a>
+</li>
+
+
+</ul>
+
+<script>
+
+/*
+
+Script to cycle through category previews... not implemented yet
+
+
+$(document).ready(function() {
+
+  $('ul.cat li a img').mouseenter(function() {
+    var img = $(this);
+
+    img.fadeTo(400, 0, function() {
+      img.next().css('visibility', 'hidden');
+
+      img.next().fadeTo(400, 1, function() {
+        img.next().css('visibility', 'visible');
+        img.insertAfter(img.last().prev()); // moves current preview to last in line
+      });
+
+    });
+    
+  });
+
+});
+
+*/
+
+</script>
+
+
+<footer>© Nathan Petersen</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,405 @@
+  *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-text-size-adjust: 100%; }
+
+*.hidden {
+  visibility: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html {
+  overflow-y: scroll; 
+}
+
+body {
+  padding: 0;
+  margin: 0!important;
+  font-family: 'Open Sans', sans-serif; /* 300,400,700,800*/
+  font-weight: 300;
+  font-size: 16px;
+  color: #333;
+}
+
+header {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgba(139, 250, 255, 0);
+}
+
+header div {
+  position: relative;
+  top: -40px;
+  display: inline-block;
+}
+
+header div h1 {
+  font-size: 10em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -.1em;
+}
+
+header div h1 a {
+  text-decoration: none;
+}
+
+header div h1 span {
+  font-family: 'Open Sans Condensed', sans-serif; /* 300,700 */
+  font-weight: 300;
+  letter-spacing: -.025em;
+  margin-left: 10px;
+  color: #555;
+}
+
+header div.about {
+  padding: 15px;
+  width: 100%;
+  margin: -30px 0 0 0;
+}
+
+header div.about p {
+  margin: 0;
+}
+
+header section {
+  float: right;
+  text-align: right;
+}
+
+header section h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 75px;
+  color: #333;
+}
+
+header section h3 {
+  margin: -15px 0 0 0;
+  padding: 0;
+  font-size: 45px;
+  font-weight: 400;
+  color: #333;
+}
+
+header img {
+  float: right;
+  clear: left;
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  padding: 15px;
+}
+
+div.updated {
+  display: block;
+  margin-top: -10px;
+  padding-left: 15px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #ccc;
+}
+
+body.subpage header div.updated {
+  margin-top: -20px;
+}
+
+body.subpage h4 {
+  padding: 15px;
+}
+
+h4 {
+  display: block;
+  padding: 20px;
+  font-weight: 300;
+  font-size: 3em;
+  text-align: center;
+  margin: -50px 0 0 0;
+}
+
+div.cat-nav {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+img.arrow {
+  margin: 0 40px;
+  height: 50px;
+  width: auto;
+}
+
+ul.cat {
+  display: block;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+ul.cat li {
+  position: relative;
+  display: inline;
+  float: left;
+  margin: 10px;
+}
+
+ul.cat li img {
+  width: 300px;
+  height: 300px;
+}
+
+ul.cat li div {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  width: 300px;
+  height: 2em;
+  bottom: 5px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px;
+}
+
+ul.cat li div span {
+  font-size: 12px;
+}
+
+ul.cat li img.preview {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+}
+
+div.gallery {
+  padding: 2px;
+}
+
+div.gallery img {
+  margin: 2px;
+  float: left;
+}
+
+button.dl {
+  margin: 0 5px 0 0;
+}
+
+footer {
+  text-align: center;
+  color: #666;
+  display: block;
+  clear: both;
+  padding: 40px 40px 10px 40px;
+}
+
+
+@media screen and (max-width:1175px) {
+  header div h1 {
+    font-size: 9em;
+  }
+
+  header section h2 {
+    font-size: 68px;
+  }
+
+  header section h3 {
+    font-size: 39px;
+  }
+
+  header img {
+    width: 135px;
+    height: 135px;
+  }
+}
+
+@media screen and (max-width:1045px) {
+  header div h1 {
+    font-size: 8em;
+    position: relative;
+    top: 8px;
+    padding-bottom: 7px;
+  }
+
+  header section h2 {
+    font-size: 61px;
+  }
+
+  header section h3 {
+    font-size: 37px;
+  }
+
+  header img {
+    width: 122px;
+    height: 122px;
+  }
+}
+
+@media screen and (max-width:935px) {
+  header div h1 {
+    font-size: 7em;
+  }
+
+  header section h2 {
+    font-size: 50px;
+  }
+
+  header section h3 {
+    font-size: 25px;
+  }
+
+  header img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width:840px) {
+  header div h1 {
+    font-size: 6em;
+    position: relative;
+    top: 17px;
+    padding-bottom: 24px;
+  }
+
+  header div h1 a span {
+    margin-left: 5px;
+  }
+
+  header section h2 {
+    font-size: 44px;
+  }
+
+  header section h3 {
+    font-size: 23px;
+  }
+
+  header img {
+    width: 85px;
+    height: 85px;
+  }
+}
+
+@media screen and (max-width:715px) {
+  header div h1 {
+    font-size: 5em;
+    position: relative;
+    top: 24px;
+    padding-bottom: 32px;
+  }
+
+  header div h1 a span {
+    margin-left: 5px;
+  }
+
+  header section h2 {
+    font-size: 42px;
+  }
+
+  header section h3 {
+    font-size: 21px;
+    margin-top: -10px;
+  }
+
+  ul.cat li {
+    width: calc(50% - 15px);
+    height: auto;
+    margin-top: 0;
+  }
+
+  ul.cat li:nth-child(2n) {
+    margin-left: 0;
+  }
+
+  ul.cat li img, ul.cat li div {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:620px) {
+  header div h1 {
+    font-size: 4em;
+    position: relative;
+    top: 29px;
+    left: 0;
+    padding: 0 0 40px 5px;
+  }
+
+  header div h1 a span {
+    margin-left: 5px;
+  }
+
+  header section  {
+    display: none;
+  }
+
+  header div.about {
+    text-align: center;
+  }
+
+  header img {
+    width: 69px;
+    height: 69px;
+    padding: 11px;
+  }
+
+  div.updated {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:370px) {
+  header div {
+    display: block;
+  }
+
+  header div h1 {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 0;
+  }
+
+  header div h1 span {
+    margin-left: 5px;
+  }
+
+  header img {
+    display: none;
+  }
+
+  body.subpage h4 {
+    padding: 5px;
+    margin-top: -70px;
+  }
+
+  body.subpage div.cat-nav {
+    margin: 0 0 10px 0;
+  }
+
+  h4 {
+    font-size: 2em;
+  }
+
+  img.arrow {
+    margin: 0 20px;
+    height: 30px;
+  }
+
+  ul.cat li div span {
+    display: none;
+  }
+
+  div.updated {
+    display: none;
+  }
+}
