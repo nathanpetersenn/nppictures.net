@@ -1,16 +1,27 @@
 <?php
 
-require 'CONFIG_VARS.php';
+$page = $_GET['page'];
 
+$CACHE_ON = true;
 /*
  * <link rel="stylesheet" type="text/css" media="screen, print, projection" href="/css/compressed.css.php" />
  */
- 
-$cssFiles = array(
-  'styles.fonts.css',
-  'styles.css',
-  'fancybox/styles.fancybox.css'
-);
+
+
+if ($page == 'index') {
+	$cssFiles = array(
+	  'common.fonts.css',
+	  'common.css',
+	  'font-awesome/css/font-awesome.css'
+	);
+} else if ($page == 'category') {
+	$cssFiles = array(
+	  'common.fonts.css',
+	  'album.css',
+	  'font-awesome/css/font-awesome.css'
+	);
+}
+
 
 $buffer = "";
 foreach ($cssFiles as $cssFile) {

@@ -1,25 +1,10 @@
 $(document).ready(function() { 
   center_ul();
-
-    $("div.gallery a").attr('rel', 'gallery').fancybox({
-      beforeLoad: function () {
-        this.title = $(this.element).attr('caption');
-      },
-      prevEffect: 'none',
-      nextEffect: 'none',
-      padding: 10,
-      loop: false,
-      helpers: {
-        title: {
-          type: 'inside'
-        }
-      }
-    });
-
 });
 
-
-$(window).on('resize', function() { center_ul(); });
+$(window).on('resize', function() {
+  center_ul();
+});
 
 function center_ul() {
   var width = $(window).width();
@@ -37,10 +22,10 @@ function center_ul() {
 
   if (num == 0) { num = 1; }
 
-  var too_small = 0;
+  var too_small = false;
   if (num > $("ul.cat li").length) { 
     var new_num = $("ul.cat li").length;
-    too_small = 1;
+    too_small = true;
     new_num = new_num * (li_padding + li_width);
   }
 
@@ -53,26 +38,3 @@ function center_ul() {
   }
 
 }
-
-/*
-if ($("div.fancybox-overlay").length == 0) {
-  $(document).keydown(function(e) {
-
-    switch(e.which) {
-        case 37: // left
-          var url = $("a.prev").attr("href");
-          if (url) window.location = url;
-        break;
-
-        case 39: // right
-          var url = $("a.next").attr("href");
-          if (url) window.location = url;
-        break;
-
-        default: return;
-    }
-    e.preventDefault();
-  });
-};
-
-*/

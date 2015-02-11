@@ -1,3 +1,7 @@
+<?php
+  $start = microtime(true);
+?>
+
 <!doctype html>
 
 <html lang="en">
@@ -44,18 +48,17 @@
     ga('send', 'pageview');
   </script>
 
-
 </head>
 
 <body<?php if (!$show_about) {  echo ' class="subpage"'; } ?>>
 
 <header>
-  <?php $src = '/util/timthumb/timthumb.php?src=' . get_profile_pic() . '&amp;w=300&amp;h=300&amp;q=90'; ?>
+  <?php $src = '/util/timthumb/timthumb.php?src=' . $user->getProfilePictureUrl() . '&amp;w=300&amp;h=300&amp;q=90'; ?>
 
   <img src="<?= $src ?>" alt="profile picture" />
   <section>
-    <h2><?php $n = get_name(); echo $n[0]; ?></h2>
-    <h3><?php $n = get_name(); echo $n[1]; ?></h3>
+    <h2><?php $n = $user->getName(); echo $n[0]; ?></h2>
+    <h3><?php $n = $user->getName(); echo $n[1]; ?></h3>
   </section>
 
   <div><h1><a href="/">NP<span>Pictures</span></a></h1></div>
@@ -63,10 +66,16 @@
 <?php
 
 if ($show_about) {
-  echo '<div class="about"><p>' . get_about_blurb() . '</p></div>';
+  echo '<div class="about"><p>' . $user->getAboutBlurb() . '</p></div>';
 }
 
 ?>
 
-  <div class="updated">Last updated: <?= date('F jS, Y \a\t g:i:s A') ?></div>
+  <?php 
+    /*
+    echo '<div class="updated">Last updated: ';
+    echo date('F jS, Y \a\t g:i:s A');
+    echo '</div>';
+    */
+  ?>
 </header>

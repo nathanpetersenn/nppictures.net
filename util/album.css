@@ -1,0 +1,255 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  overflow-y: scroll; 
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; /* 300,400,700,800*/
+  font-weight: 300;
+  font-size: 16px;
+  color: #333;
+}
+
+header {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+header h1 {
+  display: block;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 90px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+header div.background-dark {
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  width: 100%;
+  height: 200px;
+  display: block;
+
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+header div.background-art {
+  z-index: 8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+
+header ul {
+  z-index: 11;
+  position: absolute;
+  top: 140px;
+  left: 0;
+  right: 0;
+
+  max-width: 100%;
+
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+
+  font-size: 13px;
+}
+
+header ul li.middle i,
+header ul li.left a i,
+header ul li.right a i {
+  font-size: 18px;
+}
+
+header ul li.left,
+header ul li.right {
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  width: 50%;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #fff;
+}
+
+header ul li.left {
+  padding-right: 65px;
+  text-align: right;
+}
+
+header ul li.middle {
+  text-align: center;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+header ul li.right {
+  padding-left: 65px;
+  text-align: left;
+}
+
+header ul li.middle,
+header ul li.left a,
+header ul li.right a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul li.left a:before,
+header ul li.right a:before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  top: 0;
+  bottom:0;
+}
+header ul li.left a:before {
+  right: 45px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+header ul li.right a:before {
+  left: 45px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header span.close {
+  display: block;
+  z-index: 12;
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+div.gallery {
+  overflow: hidden;
+  padding: 5px;
+}
+
+div.gallery img {
+  float: left;
+  margin: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
+footer {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+
+  text-align: center;
+  color: #fff;
+  display: block;
+  clear: both;
+  padding: 40px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+@media screen and (max-width:800px) {
+  header,
+  header div.background-art,
+  header div.background-dark {
+    height: 170px;
+  }
+
+  header ul {
+    top: 110px;
+  }
+
+  header h1 {
+    font-size: 60px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  header,
+  header div.background-art,
+  header div.background-dark {
+    height: 160px;
+  }
+
+  header ul {
+    top: 100px;
+  }
+
+  header h1 {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+}

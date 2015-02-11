@@ -1,0 +1,179 @@
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <title>Waterdrops | NPPictures</title>
+
+  <meta name="description" content="A collection of pictures taken by Nathan Petersen">
+  <meta name="author" content="Nathan Petersen">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" type="text/css" media="screen, print, projection" href="/util/compressed.css.php?page=category" />
+
+  <script src="/util/jquery.min.js"></script>
+  <script src="/util/jquery.pictowall.js"></script>
+
+  <script>
+
+  $(document).ready(function() {
+    $("div.gallery").pictowall({
+        avgHeightLastRow : true,
+        maxImgHeight     : 500,
+        margin           : 5
+      });
+
+    window.addEventListener('resize', function() {
+      $("div.gallery").pictowall({
+        avgHeightLastRow : true,
+        maxImgHeight     : 500,
+        margin           : 5
+      });
+    });
+
+    $("img.small").each(function() {
+      var lrgsrc = $(this).data("lrgsrc");
+      $(this).attr("src", lrgsrc);
+    });
+
+    $("span.close").click(function() {
+      $("body").css({opacity: '0.5'});
+      $("html").prepend('<div style="font-size: 100px; position: fixed; top: calc(50% - 50px); left: calc(50% - 50px); color: #000; z-index: 10;"><i class="fa fa-spinner fa-spin"></i></div>');
+      window.location.href = 'http://nppictures.net';
+    });
+
+    var BACKGROUND_ART_SRC = $('div.background-art').css('background-image');
+    $('footer').css('background-image', BACKGROUND_ART_SRC);
+  });
+
+  $(document).keydown(function(e) {
+    switch(e.which) {
+      case 37: // left
+        var url = $("li.left a").attr("href");
+        if (url) window.location = url;
+        break;
+
+      case 39: // right
+        var url = $("li.right a").attr("href");
+        if (url) window.location = url;
+        break;
+
+      case 27: // esc
+        $("span.close").click();
+        break;
+
+      default: return;
+    }
+    e.preventDefault();
+  });
+
+  // uses Google Picasa's downloader!
+  // appending &imgdl=1 downloads the original image
+  function download(obj) {
+    var src = $(obj).data("src");
+    src = src.replace("imgmax=2000", "imgdl=1");
+
+    window.location.href = src;
+  }
+
+  /* Google Analytics code */
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47404422-1', 'nppictures.net');
+  ga('send', 'pageview');
+    
+  </script>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Waterdrops</h1>
+
+  <ul>
+    
+    <li class="middle">
+      <i class="fa fa-photo"></i>
+      <br/>
+      5 photos
+    </li>
+
+    <li class="left">
+      <a href="/category/5967399059532562609/landscapes">
+        <i class="fa fa-chevron-left"></i>
+        <br/>
+        Landscapes      </a>
+    </li>
+
+    <li class="right">
+      <a href="/category/5965491799133403921/caesar-cat">
+        <i class="fa fa-chevron-right"></i>
+        <br/>
+        Caesar Cat      </a>
+    </li>
+  </ul>
+
+  <div class="background-dark"></div>
+  <div class="background-art" style="background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgBkAGQAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8AhNRmpDUZoAjNRmpDUZoAjNRmpDUZoAjNRmpDUZoAjNMNPNMNACU09adTT1oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKUUlKKAHCpBUYqQUASCpBUYqQUAPooooAKKKKACiiigAooooA1DUZqQ1GaAIzUZqQ1GaAIzUZqQ1GaAIzUZqQ1GaAIzTDTzTDQAlNPWnU09aACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAClFJSigBwqQVGKkFAEgqQVGKkFAD6KKKACiiigAooooAKKKKANQ1GakNRmgCM1GakNRmgCM1GakNRmgCM1GakNRmgCM0w080w0AJTT1p1NPWgAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApRSUooAcKkFRipBQBIKkFRipBQA+iiigAooooAKKKKACiiigDUNRmpDUZoAjNRmpDUZoAjNRmpDUZoAjNRmpDUZoAjNMNPNMNACU09adTT1oAKKKKACiiigAooooAYTijdSGmE4oAk3Ubqj3UbqAJN1G6o91G6gCTdRuqPdRuoAk3Ubqj3UbqAJN1G6o91KKAJBTqatOoAKKKKACiiigApRSUooAcKkFRipBQBIKkFRipAcUAPopmaM0APopmaM0APopmaM0APopmaM0Aa5qM1IajNAEZqM1IajNAEZqM1IajNAEZqM1IajNAEZphp5phoASmnrTqaetABRRRQAUUUUAFFFFAEZqM1IajNADCcUbqQ0wnFAEm6jdUe6jdQBJuo3VHuo3UASbqN1R7qUUASCpFqNakWgCRadTVp1ABRRRQAUUUUAFKKSlFADhUgqMVIDigCQHFGajzRmgCTNGajzRmgCTNGajzRmgCTNGajzRmgCTNGajzRmgDfNRmlzSGgCM1GakNRmgCM1GakNRmgCM1GakNRmgCM0w080w0AJTT1p1NPWgAooooAKKKKACiiigCM0w1IabigCFhUbCrBFMZeKAK5OKTdSuKiJxQBJuo3VHupy80APFSLTAMU9aAJFqRajWpFoAkWnU1adQAUUUUAFFFFABSim5ozQBIDijNR5ozQBJmjNR5ozQBJmjNR5ozQBJmjNR5ozQBJmjNR5ozQBJmjNR5ozQB0OaTNMzRmgBxqM0uaQ0ARmozUhqM0ARmozUhqM0ARmmGpDTdtADKTFSbaNtAEeKMU/FGKAGYpMVJikxQAyin7aNtAEe2kIqXFNIoAixTGHFTkVG44oApS8VWZuaszcVSLfNQBKvNTItQoasx80AP28UAYqXbxTdtAAtSLTAMU9aAJFp1NWnUAFFFFABSGlpDQAwmkzQaYTQA/NGajzRmgCTNGajzRmgCTNGajzRmgCTNGajzRmgCTNGajzRmgCTNGajzRmgDoiaTNBph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);"></div>
+
+  <span class="close">
+    <i class="fa fa-close"></i>
+  </span>
+</header>
+
+<div class="gallery" style="visibility:hidden">
+<a href="http://lh6.ggpht.com/-1BoUbf3l0tU/UtB4HJb5MfI/AAAAAAAAA3s/6h80dIvU_NY/200.jpg?imgmax=2000" target="_blank" caption="<button onClick='download(this)' data-src='http://lh6.ggpht.com/-1BoUbf3l0tU/UtB4HJb5MfI/AAAAAAAAA3s/6h80dIvU_NY/200.jpg?imgmax=2000' class='dl'>Download</button><b>EXIF Information:</b><br/>Date: August 3, 2012 at 11:02 AM<br/>Camera: Canon EOS REBEL T2i at 55mm<br/>1/200 at f/22, ISO 100<br/>"><img class="small" src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QBgRXhpZgAASUkqAAgAAAADADEBAgAHAAAAMgAAADsBAgAQAAAAOQAAAJiCAgAOAAAASQAAAAAAAABHb29nbGUATmF0aGFuIFBldGVyc2VuAMKpIE5QUGljdHVyZXMAAP/bAIQAAwICAwICAwMDAwQDAwQFCAUFBAQFCgcHBggMFQwNCwoLCw0OEhANDhEOCwwQFhARExQVFRUMDxcYFhQNEhQVFAEDBAQCAgIJAgIJCAICAggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgI/8AAEQgAHgAyAwERAAIRAQMRAf/EABkAAAMBAQEAAAAAAAAAAAAAAAUGBwgCBP/EACwQAAIBAgUDAwMFAQAAAAAAAAECAwQRAAUGEiEHMUETUWEyQnEIFCSB8CP/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AB6O0u9Sq+nFxYcngHAUnJOnTVLC8SqL2v25wDfF0qjkv/wAl57XvzgPU/ShZIlX01Jt48YAbX9JzCsjJbtawBOAQs86eVFOjuIy7brfQbYBDlyWQSv8Axn7n7cBT+nscJp44gSSFG49rDAVijzfK8jpXkq6qOJAQVL9z7WHc4Bbzn9TnT7Rde1BmOZCmqFADwz1EMco/MbPvF/kDAcaW/WB011P+zEOaw01ZUWAppamBWVj9oDOrMfgC/wAYCrUWocm1IzpS1KLULw8EylHW/Iup5HHP4+MAJ1PlEclHMjNHuYbVNuB+OMBGp9LUxnkJdRdjx6mAlOidZRtCkiSbHKjcSL2t7YB7rtZZpmWXIcmrYaPMIZkmgqZYxKqyLcWdDxIjA2KXUki4dTwQRdcwV+t6HPKeu0TkkWZ5hFsTUOTxIlTET9QMQhLKp8hpWYgkbvOAD9JNFV+m9HQ0s+kMn1DWyVP7mOpz1I4TQg91i308l+19pIBPPBJuGjdGar1FSerU53Jl3IVIaeioxTw08K7rRqm5mBubszObgcLHfkDeo+odEuTmdZEDbre5BwEbqepGWGplJZb7zf8A18BkLJNdVlKmxQLDtzgHDJuqFbDJdS48gcWvgGek6rVdMgJ9QsTu8YAonV6tmQybGACiwHGA6m601+zgOeNxBPHt7/GAGZv1ShraOFBW1ymQbpozRptjbm4U+td/e5C97W84CeVWvWjqZkDTsFcgGwF/6ucB/9k=" data-lrgsrc="http://lh6.ggpht.com/-1BoUbf3l0tU/UtB4HJb5MfI/AAAAAAAAA3s/6h80dIvU_NY/200.jpg?imgmax=1000" data-height="500" height="500" data-width="830" width="830" alt="200.jpg" /></a><a href="http://lh3.ggpht.com/-tQUsm2Htt7U/UtB4HAG-0mI/AAAAAAAAA4s/ZTXwqfBB2tY/210.jpg?imgmax=2000" target="_blank" caption="<button onClick='download(this)' data-src='http://lh3.ggpht.com/-tQUsm2Htt7U/UtB4HAG-0mI/AAAAAAAAA4s/ZTXwqfBB2tY/210.jpg?imgmax=2000' class='dl'>Download</button><b>EXIF Information:</b><br/>Date: August 3, 2012 at 11:09 AM<br/>Camera: Canon EOS REBEL T2i at 55mm<br/>1/200 at f/22, ISO 100<br/>"><img class="small" src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QBgRXhpZgAASUkqAAgAAAADADEBAgAHAAAAMgAAADsBAgAQAAAAOQAAAJiCAgAOAAAASQAAAAAAAABHb29nbGUATmF0aGFuIFBldGVyc2VuAMKpIE5QUGljdHVyZXMAAP/bAIQAAwICAwICAwMDAwQDAwQFCAUFBAQFCgcHBggMCgwMCwoLCw0OEhANDhEOCxAQFhARExQVFRUSEhcYFhQYDg4VFAEDBAQCAgIJAgIJCAICAggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgI/8AAEQgAIQAyAwERAAIRAQMRAf/EABoAAAIDAQEAAAAAAAAAAAAAAAYHBAUIAgn/xAA2EAABAwIEAwQHCAMAAAAAAAABAgMEBREABhIhBxMxFCJhcTI0QVFSgcEIIzNyc5Hw8RUWF//EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBlQuHKn2Bpj67ncHYjywEj/nxSqyWdgL6Tc2wEKp5MMeI8+I5WptCl9bBVhfqdh88BQ1nKJCEaGlJWtIO6rpB8COuABMx0BcLUlSQD7ACb4BZVyO1zXNgCfZ7b4AUUw1c90fvgPUSPGbZSQEW22vgKquZip9FiS5UplfKhI1vOlGlKABc94+H86YDO+fvts8Nv9YrcWkSV1SpKiPNtIaZcS3zCghN1qSBa5Fz0wFblv7ZOQatR6Q1Uy9Hra47SJMdplxxId0gK0lKLFOoGx2Ft8Ab5waiVGJFCo62nJzanoocseeAkqOhQJSogAnSCSACSNjgM6Z2QmFKW2oAJ06tVuvkcAt1zEa1el18MB6dIrra2u8uxt092AC8zxM1uS+25cqtPj2AKmZcVx5ahe5DZDyNCj7VG4Pw4BGcdMvcROJOU1xJ2VG4vYHO2pqNOqQHMCEquHWSyAoWNwAskHe56YCDwpyBnrINAMJnKzWYf8g4mTrq9Z0MQ1W9NljkL0qsRdV7mwsRbcC/MtH4gyajSJ1bq0NUWjPplwocdGlCH0jZxaioqcI6CxQn4kq3uCC4lTOzkRb7MIShNxuQlCUDp4JH0sLAAol1N3WrdXX34DeVFziohxxx+4A06Tv8A1gLVvPYaZ7ziEKN+4TgO61nF2ZSH4aJPZlSWFs80JBLZUkjUEnY2ve2A4cz52aMwgzdYaSGy4bAKsOth0wC/4g8TObTXjz0loJNgTffzwGac6xa5OdYkGlzeTLaD8c8pVnW1XspHvBsdx7sArZNW7NIdZd+7dbUULQq4KSDYg4DXcD1cYDt71g+X1wEh/wDBH5D9cBUSvVleWAB87+pL+eAQ9U9CZ+ocAJHrgP/Z" data-lrgsrc="http://lh3.ggpht.com/-tQUsm2Htt7U/UtB4HAG-0mI/AAAAAAAAA4s/ZTXwqfBB2tY/210.jpg?imgmax=1000" data-height="500" height="500" data-width="759" width="759" alt="210.jpg" /></a><a href="http://lh4.ggpht.com/-EE_aUQKeTiA/UtB4GD3P_OI/AAAAAAAAB-Q/vDyXAtotE78/220.jpg?imgmax=2000" target="_blank" caption="<button onClick='download(this)' data-src='http://lh4.ggpht.com/-EE_aUQKeTiA/UtB4GD3P_OI/AAAAAAAAB-Q/vDyXAtotE78/220.jpg?imgmax=2000' class='dl'>Download</button><b>EXIF Information:</b><br/>Date: August 3, 2012 at 11:10 AM<br/>Camera: Canon EOS REBEL T2i at 55mm<br/>1/200 at f/22, ISO 100<br/>"><img class="small" src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QBgRXhpZgAASUkqAAgAAAADADEBAgAHAAAAMgAAADsBAgAQAAAAOQAAAJiCAgAOAAAASQAAAAAAAABHb29nbGUATmF0aGFuIFBldGVyc2VuAMKpIE5QUGljdHVyZXMAAP/bAIQAAwICAwICAwMDAwQDAwQFCAUFBAQFCgcHBggMChEMCwoLCw0OEhANDhEQCwsQFhARExQVFRUMDxcYFhQYDBQVFAEDBAQCAgIJAgIJCAICAggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgI/8AAEQgAIQAyAwERAAIRAQMRAf/EABwAAAICAgMAAAAAAAAAAAAAAAMFBAgGBwACCf/EADMQAAIBAwICCAMIAwAAAAAAAAECAwQFEQASBiEHCBMiMUFRYRQzcRUWMkNygYKhIyQ0/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ALaSUpRSc8888aAjUS1UeCBjQAS2AEAIcDl4aCFWWr4htqrheeV0Cme1PFMWYZXGOXloIE9qZlLbcA6BY1qn3Hu6DY16vtFY6V6mtmMUaAueRPLQVV4y66MX3pqKS3QVUfD9IJVqjSU/+7I6yBVKu52KjYbn495QCD4hgVz621HdLjDIej+ru0OcA3uued191Lhgn0XH10AH64VbSuVbhm8U8anuonEFU6qPLBJ/rmPbQNrf1xbrZYmkEF2rdlG8siXmGNu1k7RQmwKYyo7xBIY4AyFbGNBZLh7pMsPG1FBU0EwzJGJOxk7rpkZwfcZ0E1q2mDEb/P10GR9IMH2jYaqljhJlde5KiK0kbeTIGG3cDgjdyPMHAOg8v+POGuIuHOka5Vl+t9dDVSVE7SV8HaU9PJIzkh42OCqkHGMseZ8dAFbZfKiH4mBr7HABlpFnnVV/k2Mj38PfQQq4XEwS76+tWIDDNFGHck+CgxKzgnQK7bwVLXl44LTItQjq0cSqfiJHLY3FfxBeZJ5E+3iQF7eg7o6vNvstO137UyHvKs0YiMK9lFFHCqgkbUWDduzl2kcsFJbcG3Pu+o8k/Y6DNGMU8hJbvemdAKt4aob9RSU9dBHU08qFHikQMjKRggj00Glb11LeALm0klDUXrh92OF+yrgQqD0VZVkAHtjQM6DqidG9HZpqGrtM95aZCklZc6ySSoORjKuCNn8AugYdGXV04K6JJKiSzUdRUVk+FesuFQ08gTyVc8lHPyAJ8ycaDMn4jskhqVjudFtpJGglCzr/AI5FOGVufIgggg+YPpoDIkMyiRGVkcbgV8CD6aA0H/Q30OgcUnyjoOn5SfXQc/J/fQRZvnN+rQErvkL+kaBK34j9dB//2Q==" data-lrgsrc="http://lh4.ggpht.com/-EE_aUQKeTiA/UtB4GD3P_OI/AAAAAAAAB-Q/vDyXAtotE78/220.jpg?imgmax=1000" data-height="500" height="500" data-width="750" width="750" alt="220.jpg" /></a><a href="http://lh6.ggpht.com/-GGJxubo-jSg/UtB4HpvHNVI/AAAAAAAAA3w/QNVmmrjwDSc/230.jpg?imgmax=2000" target="_blank" caption="<button onClick='download(this)' data-src='http://lh6.ggpht.com/-GGJxubo-jSg/UtB4HpvHNVI/AAAAAAAAA3w/QNVmmrjwDSc/230.jpg?imgmax=2000' class='dl'>Download</button><b>EXIF Information:</b><br/>Date: August 3, 2012 at 11:13 AM<br/>Camera: Canon EOS REBEL T2i at 55mm<br/>1/200 at f/22, ISO 100<br/>"><img class="small" src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QBgRXhpZgAASUkqAAgAAAADADEBAgAHAAAAMgAAADsBAgAQAAAAOQAAAJiCAgAOAAAASQAAAAAAAABHb29nbGUATmF0aGFuIFBldGVyc2VuAMKpIE5QUGljdHVyZXMAAP/bAIQAAwICAwICAwMDAwQDAwQFCAUFBAQFFQcHBggMCg4MCwoLCw0OEhANDhEOCwsQFhARExQVFRUMDxcYFhQREhAVFAEDBAQCAgIJAgIJCAICAggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgI/8AAEQgAHwAyAwERAAIRAQMRAf/EABwAAAICAgMAAAAAAAAAAAAAAAYHBAUICQECA//EADQQAAIBAgUDAQUFCQAAAAAAAAECAwQRAAUGEiEHMUFhExQiUWIVM1Jx8CMkJUJykaGxwf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBpQ6RaQMFj3EeALHAdToljwFcfNSvN8BBr9CyGN2HB2k8jj++AG6vTDVEEcqAyCUCQECws3PzPp5wAVqDLnoCwcdu474AKq6hI+DY2+WAh+9wnnauA2DxU0cXxiG5PhR3wELMKuoFOJ4MumkjHYmHc7f0qDfv+LaPPIwCs6jdWK/RWRV9fX5HDSU0aMo99r46aVmK8KsQLszG4sP8AmAGemPV1NeZLl8NDlNPmFdFEsUtNR5gntUZRb7qV43txwRuFvJOAtuoGmJlyV80q8vmpKRBeWQruanH1gc29VBA82HOAx01nStls8iSIL/CylezKy7lII4IKkEEcEdsADHMLEjAbI2zgSRnZUKr+CDf9fr0wAZnlNqmqP8Nz5IIVbdyrNInpGQ62HpIZF+nxgFZ1V6Y5t1Oofec807TVub0dM0cOd++sZtgF/u4hEl788hhf0wAhoTo7mWgZaTN6fQ9BmOZhBJBmk+YuZIbjusLI0d+fzHzwBZqKbWOYacqaPN83rI6OoXbUCQ/vMi/hD8qqnyFjU/VgETrSsM0vs1KhY0SBI04VI0UqiqCTwAzdySSxJJ4sAWY3ucBmfT6ujEwl9ow8qAuA9ZOoqUasWd2APJC/4wHNT1SWakZYpG4jPG3ubeot/vAVNH1P+zckoIJWleanp44XJNyWVQLkgAHkHsB+QwABrzqI2a05ETu243IItbAK2vy6GT2Mv2tRM0wDvGFfdDe/wv8AsrX4/lLDkc4CplVYpHTcH2kjcvY+ouMB/9k=" data-lrgsrc="http://lh6.ggpht.com/-GGJxubo-jSg/UtB4HpvHNVI/AAAAAAAAA3w/QNVmmrjwDSc/230.jpg?imgmax=1000" data-height="500" height="500" data-width="815" width="815" alt="230.jpg" /></a><a href="http://lh5.ggpht.com/-RmQm_nEkn7E/UtB4IdOXXaI/AAAAAAAAA30/jMD0-EQTTng/240.jpg?imgmax=2000" target="_blank" caption="<button onClick='download(this)' data-src='http://lh5.ggpht.com/-RmQm_nEkn7E/UtB4IdOXXaI/AAAAAAAAA30/jMD0-EQTTng/240.jpg?imgmax=2000' class='dl'>Download</button><b>EXIF Information:</b><br/>Date: August 3, 2012 at 11:14 AM<br/>Camera: Canon EOS REBEL T2i at 55mm<br/>1/200 at f/22, ISO 100<br/>"><img class="small" src="data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QBgRXhpZgAASUkqAAgAAAADADEBAgAHAAAAMgAAADsBAgAQAAAAOQAAAJiCAgAOAAAASQAAAAAAAABHb29nbGUATmF0aGFuIFBldGVyc2VuAMKpIE5QUGljdHVyZXMAAP/bAIQAAwICAwICAwMDAwQDAwQFCAUFBAQFCgcHBggSCgwSCwoLCw0OEhANDhEQEA8QFhARExQVCxUUDxUYFhQYEhQQEAEDBAQCAgIJAgIJCAICAggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgI/8AAEQgAGQAyAwERAAIRAQMRAf/EABoAAAIDAQEAAAAAAAAAAAAAAAYHBAUIAgP/xAA4EAABAwICBQcLBQEAAAAAAAABAgMEBREABhIhMUFRBxMiYXFysRQyMzRCgZGhwdHwIyQ1UnMX/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AC3L+QHHUIHNFAtrJKrWwBrB5M7L6TbI0k3Cg4Tr7MBMXyfsRwOcDYA9pN7eIwFbVclQm45cspxIUnUwFqUekBsTc24kbBe+AG6tkArD2iGVKGxtDgJ++ATWbqI5BW4HGCU3Pm7sAvXI7emroga+GA3nSZEZSEBKyFAa7kbfj+a8BfCdEjx1LdkIaZRrccK02bTxJ3A8d3VtwHGY5zKaFIk09DVQkhomMyXkoDyv6oUpSUkncSqwwGas6cr+ZpsduJRcmZwy3IjKtNQ5l7y9Dy9IWtIjLSUgdQPO+aTYkkPb/sea5kSm0unZJrEqqodHlsrMUJiksvN+04GFuaaLd63USbALjlUkZeVk2TMedZgTbEMKYdu08vclCbaKieoXHHAZoTPUUgvU/Re9seU6Nlb9RFx2HZgNEUPlUImpaiUdnTSNZtqvgDCByiS5S2tKHHaUm6krQkBSTfXY7r4CLJkxXHnZDbSIL75/VXGVza1e8YCLWKLTX0JVIhIqTqSgJcecUp1I0hexJ1W2/HARKtSmYZckxnnY2j0EhlyxI/OOASWeqsKHLkqiw2nJahZUtsXWQdyinb88ApFz5Gmr9q2nXs5u1vlgHbknd78Awad6yx2ffASJHrae4fHAd1P0qO6PpgK+s+kV3fpgELmn+Wmf6J8FYAEf9O53j44D/9k=" data-lrgsrc="http://lh5.ggpht.com/-RmQm_nEkn7E/UtB4IdOXXaI/AAAAAAAAA30/jMD0-EQTTng/240.jpg?imgmax=1000" data-height="500" height="500" data-width="1004" width="1004" alt="240.jpg" /></a></div>
+
+
+
+<footer>
+
+  All images &copy; 2008-2015 Nathan Petersen  <br/>
+  <small>All Rights Reserved.</small>
+
+</footer>
+
+<script>
+
+$(document).ready(function() {
+
+  var footerClicks = 0;
+  var creationTime = "<small>Server rendering time: <b>6.518</b> seconds</small>";
+
+  $("footer").click(function() {
+    footerClicks++;
+
+    if (footerClicks > 8) {
+      return false;
+    }
+
+    if (footerClicks > 7) {
+      $(this).append("<br/>" + creationTime);
+      $(this).css({
+        "background-color" : "#eee",
+        "cursor" : "default"
+      });
+
+      window.scrollTo(0, document.body.scrollHeight);
+    }
+
+  });
+});
+
+</script>
+
+</body>
+
+</html>

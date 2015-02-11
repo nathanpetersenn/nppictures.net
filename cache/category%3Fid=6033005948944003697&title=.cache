@@ -1,0 +1,591 @@
+<br />
+<b>Warning</b>:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://picasaweb.google.com/data/feed/api/user/nppictures.storage/albumid/6033005948944003697:1: parser error : Start tag expected, '&lt;' not found in <b>/home/schoen8/public_html/nppictures.net/util/PicasaWebAlbum.php</b> on line <b>25</b><br />
+<br />
+<b>Warning</b>:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: No album found. in <b>/home/schoen8/public_html/nppictures.net/util/PicasaWebAlbum.php</b> on line <b>25</b><br />
+<br />
+<b>Warning</b>:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: ^ in <b>/home/schoen8/public_html/nppictures.net/util/PicasaWebAlbum.php</b> on line <b>25</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/home/schoen8/public_html/nppictures.net/util/PicasaWebAlbum.php</b> on line <b>46</b><br />
+<br />
+<b>Warning</b>:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>9</b><br />
+<br />
+<b>Warning</b>:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>9</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+<br />
+<b>Warning</b>:  imagefilter() expects parameter 1 to be resource, boolean given in <b>/home/schoen8/public_html/nppictures.net/category.php</b> on line <b>11</b><br />
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <title> | NPPictures</title>
+
+  <meta name="description" content="A collection of pictures taken by Nathan Petersen">
+  <meta name="author" content="Nathan Petersen">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" type="text/css" media="screen, print, projection" href="/util/compressed.css.php?page=category" />
+
+  <script src="/util/jquery.min.js"></script>
+  <script src="/util/jquery.pictowall.js"></script>
+
+  <script>
+
+  $(document).ready(function() {
+    $("div.gallery").pictowall({
+        avgHeightLastRow : true,
+        maxImgHeight     : 500,
+        margin           : 5
+      });
+
+    window.addEventListener('resize', function() {
+      $("div.gallery").pictowall({
+        avgHeightLastRow : true,
+        maxImgHeight     : 500,
+        margin           : 5
+      });
+    });
+
+    $("img.small").each(function() {
+      var lrgsrc = $(this).data("lrgsrc");
+      $(this).attr("src", lrgsrc);
+    });
+
+    $("span.close").click(function() {
+      $("body").css({opacity: '0.5'});
+      $("html").prepend('<div style="font-size: 100px; position: fixed; top: calc(50% - 50px); left: calc(50% - 50px); color: #000; z-index: 10;"><i class="fa fa-spinner fa-spin"></i></div>');
+      window.location.href = 'http://nppictures.net';
+    });
+
+    var BACKGROUND_ART_SRC = $('div.background-art').css('background-image');
+    $('footer').css('background-image', BACKGROUND_ART_SRC);
+  });
+
+  $(document).keydown(function(e) {
+    switch(e.which) {
+      case 37: // left
+        var url = $("li.left a").attr("href");
+        if (url) window.location = url;
+        break;
+
+      case 39: // right
+        var url = $("li.right a").attr("href");
+        if (url) window.location = url;
+        break;
+
+      case 27: // esc
+        $("span.close").click();
+        break;
+
+      default: return;
+    }
+    e.preventDefault();
+  });
+
+  // uses Google Picasa's downloader!
+  // appending &imgdl=1 downloads the original image
+  function download(obj) {
+    var src = $(obj).data("src");
+    src = src.replace("imgmax=2000", "imgdl=1");
+
+    window.location.href = src;
+  }
+
+  /* Google Analytics code */
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47404422-1', 'nppictures.net');
+  ga('send', 'pageview');
+    
+  </script>
+
+</head>
+
+<body>
+
+<header>
+  <h1></h1>
+
+  <ul>
+    
+    <li class="middle">
+      <i class="fa fa-photo"></i>
+      <br/>
+      0 photos
+    </li>
+
+    <li class="left" style="visibility:hidden">
+      <a href="">
+        <i class="fa fa-chevron-left"></i>
+        <br/>
+              </a>
+    </li>
+
+    <li class="right" style="visibility:hidden">
+      <a href="">
+        <i class="fa fa-chevron-right"></i>
+        <br/>
+              </a>
+    </li>
+  </ul>
+
+  <div class="background-dark"></div>
+  <div class="background-art" style="background-image: url(data:image/jpeg;base64,PGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2VqcGVnKCkgZXhwZWN0cyBwYXJhbWV0ZXIgMSB0byBiZSByZXNvdXJjZSwgYm9vbGVhbiBnaXZlbiBpbiA8Yj4vaG9tZS9zY2hvZW44L3B1YmxpY19odG1sL25wcGljdHVyZXMubmV0L2NhdGVnb3J5LnBocDwvYj4gb24gbGluZSA8Yj4xNTwvYj48YnIgLz4K);"></div>
+
+  <span class="close">
+    <i class="fa fa-close"></i>
+  </span>
+</header>
+
+<div class="gallery" style="visibility:hidden">
+</div>
+
+
+
+<footer>
+
+  All images &copy; 2008-2015 Nathan Petersen  <br/>
+  <small>All Rights Reserved.</small>
+
+</footer>
+
+<script>
+
+$(document).ready(function() {
+
+  var footerClicks = 0;
+  var creationTime = "<small>Server rendering time: <b>0.586</b> seconds</small>";
+
+  $("footer").click(function() {
+    footerClicks++;
+
+    if (footerClicks > 8) {
+      return false;
+    }
+
+    if (footerClicks > 7) {
+      $(this).append("<br/>" + creationTime);
+      $(this).css({
+        "background-color" : "#eee",
+        "cursor" : "default"
+      });
+
+      window.scrollTo(0, document.body.scrollHeight);
+    }
+
+  });
+});
+
+</script>
+
+</body>
+
+</html>

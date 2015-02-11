@@ -11,18 +11,23 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
-RewriteCond %{REQUEST_URI} ^/recent
-RewriteRule ^ recent.php [NC,L]
+RewriteCond %{REQUEST_URI} ^/recent$
+RewriteRule ^ category.php?id=recent [NC,L]
 
-RewriteCond %{REQUEST_URI} ^/cc
-RewriteRule ^ /util/cc.html [NC,L]
+RewriteCond %{REQUEST_URI} ^/cache
+RewriteRule ^ cache.php [NC,L]
 
 RewriteCond %{REQUEST_URI} ^/category/(.*)/(.*)
-RewriteRule ^ category.php?id=%1&name=%2 [NC,L]
+RewriteRule ^ category.php?id=%1&title=%2 [NC,L]
 
 RewriteCond %{REQUEST_URI} ^/category/(.*)
 RewriteRule ^ category.php?id=%1 [NC,L]
 
+RewriteCond %{REQUEST_URI} ^/category_WITH_PLUGIN/(.*)/(.*)
+RewriteRule ^ category_WITH_PLUGIN.php?id=%1&title=%2 [NC,L]
+
+RewriteCond %{REQUEST_URI} ^/category_WITH_PLUGIN/(.*)
+RewriteRule ^ category_WITH_PLUGIN.php?id=%1 [NC,L]
 
 
 <IfModule mod_expires.c>
