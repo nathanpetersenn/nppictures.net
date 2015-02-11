@@ -23,12 +23,6 @@ RewriteRule ^ category.php?id=%1&title=%2 [NC,L]
 RewriteCond %{REQUEST_URI} ^/category/(.*)
 RewriteRule ^ category.php?id=%1 [NC,L]
 
-RewriteCond %{REQUEST_URI} ^/category_WITH_PLUGIN/(.*)/(.*)
-RewriteRule ^ category_WITH_PLUGIN.php?id=%1&title=%2 [NC,L]
-
-RewriteCond %{REQUEST_URI} ^/category_WITH_PLUGIN/(.*)
-RewriteRule ^ category_WITH_PLUGIN.php?id=%1 [NC,L]
-
 
 <IfModule mod_expires.c>
   ExpiresActive on
